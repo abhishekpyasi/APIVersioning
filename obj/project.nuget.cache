@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "DpyQOPsbyTj8OUfj3PXp+Q3dDi5QRhY7/vMMUW2HFJSwTPc4BcNoMQMSIaxFtbvBN//SkjyfUUxXeKUCGnGjPA==",
+  "dgSpecHash": "FDr9MN0ewezPK7UfqyE1LZMMzufNP5oo0S8oRF1tC0HVW/nBzNOnh608Az0JJlnDxTaFkbv3hRP35KZOuubumw==",
   "success": true,
   "projectFilePath": "C:\\Users\\abhis\\source\\repos\\WebAPIVersioning\\WebAPIVersioning.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\abhis\\.nuget\\packages\\microsoft.aspnet.webapi.versioning.apiexplorer\\4.1.1\\microsoft.aspnet.webapi.versioning.apiexplorer.4.1.1.nupkg.sha512",
+    "C:\\Users\\abhis\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.0.0\\microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512",
     "C:\\Users\\abhis\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\abhis\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\abhis\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
@@ -11,5 +13,16 @@
     "C:\\Users\\abhis\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
     "C:\\Users\\abhis\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.WebApi.Versioning.ApiExplorer 4.1.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.WebApi.Versioning.ApiExplorer",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }

@@ -28,9 +28,17 @@ namespace WebAPIVersioning
         {
 
             services.AddControllers();
+            
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebAPIVersioning", Version = "v1" });
+            });
+
+            services.AddApiVersioning(options =>
+            {
+                options.DefaultApiVersion = new ApiVersion(1,0); // used to set default version of API
+                options.AssumeDefaultVersionWhenUnspecified = true; //flag AssumeDefaultVersionWhenUnspecified flag is used to set the default version when the client has not specified any versions. 
+                options.ReportApiVersions = true; //To return the API version in response header
             });
         }
 
